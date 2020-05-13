@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="firstSuite">
+    <test name="Testing Parameterization">
+        <parameter name="set_of_numbers" value="1,2,3"/>
+        <parameter name="expectedMin" value="1"/>
+        <parameter name="expectedWordsAmount" value="50"/>
+        <parameter name="expectedRows" value="5"/>
+        <parameter name="hw" value="Hello world!!!"/>
+        <parameter name="rhw" value="!!!dlrow olleH"/>
+        <classes>
+            <class name="Task1Test"/>
+            <class name="Task2Test"/>
+            <class name="Task3Test"/>
+        </classes>
+    </test>
+</suite>
